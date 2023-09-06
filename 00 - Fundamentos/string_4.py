@@ -22,3 +22,5 @@ print(
             Obrigado por usar nosso sistema!!!!
 """
 )
+
+#string de múltiplas linhas são definidas informando 3 aspas simples ou duplas, durante a atribuição, elas podem ocupar várias linhas do código e todos os espaços em brancos são incluídos na string final.
