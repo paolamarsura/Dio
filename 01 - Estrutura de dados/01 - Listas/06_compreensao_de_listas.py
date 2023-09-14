@@ -7,3 +7,5 @@ print(pares)
 numeros = [1, 30, 21, 2, 9, 65, 34]
 quadrado = [numero**2 for numero in numeros]
 print(quadrado)
+
+# A compreensão de lista oferece uma sintaxe mais curta quando você deseja: criar uma nova lista com base nos valores de uma lista existente (filtro) ou gerar uma nova lista aplicando alguma modificação nos elementos de uma lista existente.​

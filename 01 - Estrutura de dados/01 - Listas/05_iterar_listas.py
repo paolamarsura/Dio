@@ -6,3 +6,5 @@ for carro in carros:
 
 for indice, carro in enumerate(carros):
     print(f"{indice}: {carro}")
+
+# função enumerate irá mostrar o índice dentro do obj do laço for
