@@ -13,3 +13,6 @@ print(numeros)
 
 pais = ("Brasil",)
 print(pais)
+
+# tupla é uma estrutura imutável e a lista é mutável
+# lista se constroi entre [] e truplas entre () separados entre vírgulas com uma vírgula no final; podemos chamar pela classe tuple

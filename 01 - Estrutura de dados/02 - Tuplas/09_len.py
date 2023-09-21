@@ -7,3 +7,5 @@ linguagens = (
 )
 
 print(len(linguagens))  # 5
+
+#método da classe tuple
