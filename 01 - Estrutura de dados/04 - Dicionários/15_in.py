@@ -16,3 +16,5 @@ print(resultado)
 
 resultado = "telefone" in contatos["giovanna@gmail.com"]  # True
 print(resultado)
+
+# método para verificar se uma chave existe ou não em um dict 

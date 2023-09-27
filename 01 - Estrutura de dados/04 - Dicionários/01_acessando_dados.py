@@ -1,8 +1,12 @@
 dados = {"nome": "Guilherme", "idade": 28, "telefone": "3333-1234"}
 
+#acessando valores
+
 print(dados["nome"])  # "Guilherme"
 print(dados["idade"])  # 28
 print(dados["telefone"])  # "3333-1234"
+
+# sobrescrevendo valores
 
 dados["nome"] = "Maria"
 dados["idade"] = 18

@@ -7,3 +7,5 @@ contatos = {
 
 telefone = contatos["giovanna@gmail.com"]["telefone"]  # "3443-2121"
 print(telefone)
+
+# dicionários podem armazenar qualquer tipo de obj Python como valor, desde que a chave para este valor seja um obj imutável como (strings e números)

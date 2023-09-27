@@ -5,3 +5,8 @@ print(resultado)
 
 resultado = contatos.pop("guilherme@gmail.com", {})  # {}
 print(resultado)
+
+#resultado = contatos.pop("guilherme@gmail.com", não encontrou)  # {}
+#print(resultado) 
+
+#método para remover uma chave do dict retornando o valor que foi removido
