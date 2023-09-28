@@ -29,3 +29,5 @@ exibir_poema(
     autor="Tim Peters",
     ano=1999,
 )
+
+# podemos combinar parâmetros obrigatórios com args e kwargs, quando definido como *args e **kwargs o método recebe os valores como tupla e dict respctivamente.
