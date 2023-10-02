@@ -1,11 +1,13 @@
-def exibir_poema(data_extenso, *args, **kwargs):
-    texto = "\n".join(args)
+def exibir_poema(data_extenso, *args, **kwargs): # posso mudar o nome, o que importa é o * ex: *lista **dict
+    texto = "\n".join(args) # "\n" quebra de linha | o . concatena
     meta_dados = "\n".join([f"{chave.title()}: {valor}" for chave, valor in kwargs.items()])
     mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
     print(mensagem)
 
 
+
 exibir_poema(
+    "Sexta-feira, 02 de outrubro de 2023",
     "Zen of Python",
     "Beautiful is better than ugly.",
     "Explicit is better than implicit.",
@@ -26,8 +28,8 @@ exibir_poema(
     "If the implementation is hard to explain, it's a bad idea.",
     "If the implementation is easy to explain, it may be a good idea.",
     "Namespaces are one honking great idea -- let's do more of those!",
-    autor="Tim Peters",
-    ano=1999,
+    autor="Tim Peters", #chave-valor # **kwargs #dict
+    ano=1999, #chave-valor # **kwargs #dict
 )
 
 # podemos combinar parâmetros obrigatórios com args e kwargs, quando definido como *args e **kwargs o método recebe os valores como tupla e dict respctivamente.
